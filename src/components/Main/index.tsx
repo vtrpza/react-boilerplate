@@ -4,6 +4,7 @@ const Main = ({
   title = 'React Avançado',
   description = 'TS, ReactJS, NextJS e Styled Components'
 }) => (
+  <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"
       alt="Imagem de um átomo rosa, com React Avançado escrito ao lado"

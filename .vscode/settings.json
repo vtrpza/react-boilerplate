@@ -6,6 +6,6 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     // For ESLint
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": false,
   }
 }
