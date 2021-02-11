@@ -6,7 +6,7 @@ describe('<Main/>', () => {
   it('should render  the heading', () => {
     const { container } = render(<Main />)
 
-    expect(screen.getByRole('heading', { name: /react avançado/i }))
+    expect(screen.getByRole('heading', { name: /react starter/i }))
       .toBeInTheDocument
 
     expect(container.firstChild).toMatchInlineSnapshot(`
@@ -35,7 +35,7 @@ describe('<Main/>', () => {
       }
 
       .c1 {
-        width: 25rem;
+        width: 15rem;
         margin-bottom: 2rem;
       }
 
@@ -57,19 +57,19 @@ describe('<Main/>', () => {
         class="c0"
       >
         <img
-          alt="Imagem de um átomo rosa, com React Avançado escrito ao lado"
+          alt="Imagem de um átomo rosa"
           class="c1"
-          src="/img/logo.svg"
+          src="/img/icon-512.png"
         />
         <h1
           class="c2"
         >
-          React Avançado
+          React Starter
         </h1>
         <h2
           class="c3"
         >
-          TS, ReactJS, NextJS e Styled Components
+          TypeScript, ReactJS, NextJS & Styled Components
         </h2>
         <img
           alt="Imagem de um dev olhando para tela com código"
