@@ -12,16 +12,16 @@
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*": [
       "yarn lint --fix",
       "yarn test --findRelatedTests --bail"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
     "@storybook/addon-knobs": "^6.1.17",
