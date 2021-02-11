@@ -4,7 +4,6 @@ const Main = ({
   title = 'React Avançado',
   description = 'TS, ReactJS, NextJS e Styled Components'
 }) => (
-  asdas
   <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"

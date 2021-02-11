@@ -9,7 +9,7 @@ export default {
 } as Meta
 
 export const Basic: Story = () => (
-  <Mainasasasd
+  <Main
     title={text('Title', 'React Avançado')}
     description={text(
       'Description',

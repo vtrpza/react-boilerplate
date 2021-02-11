@@ -1,3 +1,0 @@
-{
-  "src/**/*": ["eslint src --max-warnings=0 --fix", "jest --findRelatedTests --bail"]
-}

@@ -10,27 +10,70 @@ describe('<Main/>', () => {
       .toBeInTheDocument
 
     expect(container.firstChild).toMatchInlineSnapshot(`
+      .c0 {
+        background-color: #06092b;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 3rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+
+      .c1 {
+        width: 25rem;
+        margin-bottom: 2rem;
+      }
+
+      .c2 {
+        font-size: 2.5rem;
+      }
+
+      .c3 {
+        font-size: 2rem;
+        font-weight: 400;
+      }
+
+      .c4 {
+        margin-top: 3rem;
+        width: min(30rem,100%);
+      }
+
       <main
-        class="styles__Wrapper-sc-1cs6c8-0 iAwbZK"
+        class="c0"
       >
         <img
           alt="Imagem de um átomo rosa, com React Avançado escrito ao lado"
-          class="styles__Logo-sc-1cs6c8-1 igVxLV"
+          class="c1"
           src="/img/logo.svg"
         />
         <h1
-          class="styles__Title-sc-1cs6c8-2 VHROD"
+          class="c2"
         >
           React Avançado
         </h1>
         <h2
-          class="styles__Description-sc-1cs6c8-3 gQTEEc"
+          class="c3"
         >
           TS, ReactJS, NextJS e Styled Components
         </h2>
         <img
           alt="Imagem de um dev olhando para tela com código"
-          class="styles__Illustration-sc-1cs6c8-4 frJyYJ"
+          class="c4"
           src="/img/hero-illustration.svg"
         />
       </main>
