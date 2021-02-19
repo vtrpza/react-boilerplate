@@ -4,7 +4,7 @@ const Main = ({
   title = 'React Starter',
   description = 'TypeScript, ReactJS, NextJS & Styled Components'
 }) => (
-  <S.Wrapper>
+  <S.Wrapper>asdasdasdsadasds
     <S.Logo src="/img/icon-512.png" alt="Imagem de um átomo rosa" />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
