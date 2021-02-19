@@ -1670,6 +1670,7 @@
   version "6.1.18"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.18.tgz#9dad0f2be52db778ec4519f130d9e0c46188b504"
   integrity sha512-05p52RWst3jS5txwqplLZFWuZ89PMtsHojxs4rWRQ6mrgPwiTE0MUl+S1wMihabLm9CYUUJ0/41QNb2Uv0+hhw==
+
   dependencies:
     "@storybook/addons" "6.1.18"
     "@storybook/api" "6.1.18"
@@ -1693,6 +1694,30 @@
   version "6.1.18"
   resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-6.1.18.tgz#1f1b232a76e6c97a5c9e86fc0f51b3fe999f04a8"
   integrity sha512-8qgA1oKyplJQNtdTsf88zxa/q+YN25C0VCRe8HoL1r5gE7n7qf0bQofq+aMv11upbVNxdFXcoABEyiq/CfTX0g==
+"@storybook/addon-actions@^6.1.18":
+  version "6.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.18.tgz#9dad0f2be52db778ec4519f130d9e0c46188b504"
+  integrity sha512-05p52RWst3jS5txwqplLZFWuZ89PMtsHojxs4rWRQ6mrgPwiTE0MUl+S1wMihabLm9CYUUJ0/41QNb2Uv0+hhw==
+  dependencies:
+    "@storybook/addons" "6.1.18"
+    "@storybook/api" "6.1.18"
+    "@storybook/client-api" "6.1.18"
+    "@storybook/components" "6.1.18"
+    "@storybook/core-events" "6.1.18"
+    "@storybook/theming" "6.1.18"
+    core-js "^3.0.1"
+    fast-deep-equal "^3.1.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    polished "^3.4.4"
+    prop-types "^15.7.2"
+    react-inspector "^5.0.1"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+    uuid "^8.0.0"
+
+
   dependencies:
     "@storybook/addons" "6.1.18"
     "@storybook/api" "6.1.18"
@@ -2332,20 +2357,21 @@
   version "6.1.18"
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-6.1.18.tgz#f98fc0c3b2b7dcbfb7725133179612f12ca9b673"
   integrity sha512-QVj3VbgdCPHO+nrB1zOyEwdr5pLpMyf257Sqk+wR3pcEdewEYoVMP9sxUULBlQqPYSzPVzlZzgyAzGWZlCE/jA==
+
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/react@^6.1.17":
-  version "6.1.17"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.1.17.tgz#cb48386d435984d7ca58a24e686a72159367077b"
-  integrity sha512-gBylKDuwUzWueB6mEhTo72SelWU3vPWHAFsi+NK6zWFIc2a5dJc9QqDfN+2rBhVOdRXqhSHzYwNWurqYpWuqew==
+"@storybook/react@^6.1.18":
+  version "6.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.1.18.tgz#895cdc252299a181442131f0b3b2506f273888c0"
+  integrity sha512-wAkUn3LPzoo10LgIZ28beJT9hrWAKR5rEl6g3Y4yTqmvfWdaXZOtHomEchq7Cru7C+1jQ60mDMtwu+D2FZP4bQ==
   dependencies:
     "@babel/preset-flow" "^7.12.1"
     "@babel/preset-react" "^7.12.1"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.4.2"
-    "@storybook/addons" "6.1.17"
-    "@storybook/core" "6.1.17"
-    "@storybook/node-logger" "6.1.17"
+    "@storybook/addons" "6.1.18"
+    "@storybook/core" "6.1.18"
+    "@storybook/node-logger" "6.1.18"
     "@storybook/semver" "^7.3.2"
     "@types/webpack-env" "^1.15.3"
     babel-plugin-add-react-displayname "^0.0.5"
