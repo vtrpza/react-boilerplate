@@ -7,7 +7,9 @@ To get started with the React Boilerplate, you first need to run the development
 bash
 Copy code
 npm run dev
+
 # or
+
 yarn dev
 Once the server is running, you can open your browser and navigate to http://localhost:3000 to see the result.
 
@@ -29,14 +31,3 @@ Deployment
 For deployment, the easiest way is to use the Vercel Platform from the creators of Next.js. For more details, you can refer to the Next.js deployment documentation.
 
 This React Boilerplate provides a solid foundation for starting a new Next.js project, making it easier for developers to focus on creating their application.
-
-image of 
-Favicon
-nextjs.org
-image of next.js/packages/create-next-app at canary · vercel/next.js
-next.js/packages/create-next-app at canary · vercel/next.js
-Favicon
-github.com
-image of 
-Favicon
-nextjs.org
