@@ -8,7 +8,7 @@ bash
 Copy code
 npm run dev
 
-# or
+or
 
 yarn dev
 Once the server is running, you can open your browser and navigate to http://localhost:3000 to see the result.
